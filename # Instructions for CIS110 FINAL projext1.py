@@ -42,4 +42,19 @@ while superTool == "":
  print("Please select a tool ")
 if superTool.lower() == "Microsoft Word":
  print("A puppy and a copy cat too, never the less good choice")
- 
+ if superTool.lower() == "":
+     superTool.lower == input(f"\nPlease enter the tools name")
+ else:
+       print(f"\mGood Choice! I didnt even think about, {superTool}.")
+ #LastStoryline
+ print(f"\mWe use,{superTool}, and get blocked by the teachers strong firewall.")
+ print("We will lose time if we have to work around it. Do we try to get around the firewall or try to manually submit the paper?")
+choiceOne = "Firewall"
+choiceTwo = "Manual"
+choices == input(f"\nIts up to you to decide, type choiceOne for bypassing the firewall or choiceTwo to manually try to submit the paper:   ")
+if choices.lower() == "choiceOne":
+    choiceOne == input(f"\nLets get started, press any key to continue")
+while len(choices) == "choiceTwo":
+    print("Turns out you cant hand the head of the college your laptop, as the paper is digital code, and expect a passing grade")
+    print("that and he was not fooled when the tail came out the jacket. GAME Over")
+
