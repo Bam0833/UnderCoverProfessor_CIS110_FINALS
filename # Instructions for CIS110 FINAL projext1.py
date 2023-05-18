@@ -36,25 +36,25 @@ if chosenPath == "pathA":
  pathA == input(f"\nNext we got to infiltrate the web to get this paper submitted, press any key to continue")
 
 keepGoing = "y"
-print("There are many tools , I would use the one tool known to defeat evil teachers, Microsoft Word, but the choice is yours")
-superTool = input("We have a wide variety of tools to accomplish this task, Please pick a tool to use:          ")
-while superTool == "":
- print("Please select a tool ")
-if superTool.lower() == "Microsoft Word":
- print("A puppy and a copy cat too, never the less good choice")
- if superTool.lower() == "":
-     superTool.lower == input(f"\nPlease enter the tools name")
- else:
-       print(f"\mGood Choice! I didnt even think about, {superTool}.")
- #LastStoryline
- print(f"\mWe use,{superTool}, and get blocked by the teachers strong firewall.")
- print("We will lose time if we have to work around it. Do we try to get around the firewall or try to manually submit the paper?")
-choiceOne = "Firewall"
-choiceTwo = "Manual"
-choices == input(f"\nIts up to you to decide, type choiceOne for bypassing the firewall or choiceTwo to manually try to submit the paper:   ")
-if choices.lower() == "choiceOne":
-    choiceOne == input(f"\nLets get started, press any key to continue")
-while len(choices) == "choiceTwo":
-    print("Turns out you cant hand the head of the college your laptop, as the paper is digital code, and expect a passing grade")
-    print("that and he was not fooled when the tail came out the jacket. GAME Over")
+chooseTool = ["'superTool' , 'superToolA' , superToolB' "]
+superTool = "office"
+superToolA = "coloring pencils and scrap paper"
+superToolB = "ink and paw prints"
+print("We have a wide variety of tools to accomplish this task, Please pick a tool to use please input an option")
+print(f"superTool = {superTool}")
+print(f"superToolA = {superToolA}")
+print(f"superToolB = {superToolB}")
+chooseTool == input(f"Please input one tool :superTool,superToolA,supertoolB:         ")
+if chooseTool == "":
+ chooseTool == input("Please select a tool ")
+if chooseTool =="superToolA":
+         chooseTool == input(f"\nWe draft the paper with the coloring pencils and our scrap paper had some takeout menu printed on the back,")
+         chooseTool == input(f"needless to say our paper was failed on site, GAME OVER")
+if chooseTool == "superToolB":
+          chooseTool == input(f"Turns out the head of the college cant read puppy print, Who knew? GAME OVER")
+if chooseTool == "superTool":
+  chooseTool == input(f"\nGood choice , {userName}, Lets begin the paper!")
+print("We spend hours writing the paper, then find our way to the head of college's main office ahead of the teacher. We turn the paper in and get caught because the paper smells of pure kibbles and bits. We tried! GAME OVER")
+print("The good news is Mr Woofles is no longer undercover and at home safe. Bad news is i failed this class but had a brave puppy to atleast try to save me")
+print("The End")
 
